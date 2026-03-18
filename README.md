@@ -17,45 +17,31 @@ Este projeto resolve esse problema permitindo compilar .jrxml na versão correta
 - Java (JDK 8 ou compatível)
 
 Verifique:
-
+```Javascript
 node -v
 java -version
-
+```
 ### Executar em modo desenvolvimento
 
+```Javascript
 npm install
 npm start
+```
 
 --------------------------------------------------
 
 ## Gerar builds
 
 ### Windows
-
+```Javascript
 npm run build
-
+```
 ### Linux
 
 (Recomendado rodar em ambiente Linux - WSL, VM ou CI)
-
-npx electron-builder --linux
-
---------------------------------------------------
-
-## Downloads
-
-Os arquivos estão disponíveis na pasta "versions/".
-
-### Windows
-
-- UFC Compilador JRXML Setup.exe
-  ./versions/UFC Compilador JRXML Setup.exe
-
-### Linux (em breve)
-
-- AppImage
-- .deb
-
+```Javascript
+npm run build-linux
+```
 --------------------------------------------------
 
 ## Desenvolvedores
